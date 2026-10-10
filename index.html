@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>dice</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        
+        <div id="upper-part">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>ИСХОД</th>
+                        <th>СЧЕТ</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        
+        <div id="middle-part">
+            <div id="player">
+                <span id="dice-icon-1" class="dice"></span>
+                <span id="dice-icon-2" class="dice"></span>
+            </div>
+            
+            <div id="enemy">
+                <span id="dice-icon-3" class="dice"></span>
+                <span id="dice-icon-4" class="dice"></span>
+            </div>
+        </div>
+        
+        <div id="lower-part">
+            <button id="throw" onclick="diceThrowing()">КИНУТЬ КОСТИ</button>
+            <p id="result">ПОРА БРОСИТЬ КОСТИ</p>
+        </div>
+        
+        <script src="JS/dice.js"></script>
+    </body>
+</html>
